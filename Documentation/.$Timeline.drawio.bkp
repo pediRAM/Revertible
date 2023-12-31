@@ -1,0 +1,79 @@
+<mxfile host="Electron" modified="2023-12-31T14:44:06.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="vjqciKkBia-osMFVlepr" version="22.1.16" type="device">
+  <diagram name="Seite-1" id="RuA8dJS9qZgODvVv4Pj8">
+    <mxGraphModel dx="988" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="480" as="sourcePoint" />
+            <mxPoint x="640" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="560" as="sourcePoint" />
+            <mxPoint x="160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="560" as="sourcePoint" />
+            <mxPoint x="360" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="560" as="sourcePoint" />
+            <mxPoint x="560" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-6" value="&lt;h1&gt;Contruction&lt;/h1&gt;&lt;p&gt;RevertibleClass is instanciated&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="560" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="440" as="sourcePoint" />
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-9" value="&lt;h1&gt;Sideeffects&lt;/h1&gt;&lt;p&gt;Value of 1 or more revertible Properties have been changed&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-10" value="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=22;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="500" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-11" value="&lt;h1&gt;Save state&lt;/h1&gt;&lt;p&gt;Values of all Revertible Properties will be&amp;nbsp; saved in Memory&lt;br&gt;(by BaseRevertibleClass)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-12" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-14" value="2" style="ellipse;whiteSpace=wrap;html=1;fontSize=22;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-15" value="3" style="ellipse;whiteSpace=wrap;html=1;fontSize=22;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="500" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-19" value="&lt;h1&gt;Sideeffects&lt;/h1&gt;&lt;p&gt;Value of 1 or more revertible Properties have been changed&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-20" value="4" style="ellipse;whiteSpace=wrap;html=1;fontSize=22;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="410" y="420" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-21" value="&lt;h1&gt;Revert state&lt;/h1&gt;&lt;p&gt;Values of all Revertible Properties will be reverted by the saved previous values in Memory&lt;br&gt;(by BaseRevertibleClass)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zdbZ0i6pbUNq0NnBW1Js-22" value="5" style="ellipse;whiteSpace=wrap;html=1;fontSize=22;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

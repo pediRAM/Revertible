@@ -1,13 +1,5 @@
-This is the english documentation. Following translations are available:
-- [普通话 (Mandarin) :cn:](Documentation/Mandarin.md)
-- [Español :es:](Documentation/Spanish.md)
-- [Pусский :ru:](Documentation/Russian.md)
-- [Deutsch :de:](Documentation/German.md)
-- [हिंदी :india:](Documentation/Spanish.md)
-- [فارسی :iran: :afghanistan: :tajikistan:](Documentation/Spanish.md)
-
 # Revertible
-Facilitates defining classes with **Revertible Properties**. 
+Facilitates defining classes with **Revertible Properties**.
 
 - [Revertible](#revertible)
   - [Features](#features)
@@ -34,12 +26,12 @@ As shown in the diagram below, at state 5, when the revert method is invoked, th
 
 **Note:** Properties without the **[Revertible]** annotation are always ignored.
 
-![State Diagram](Documentation/Timeline.drawio.png)
+![State Diagram](Timeline.drawio.png)
 
 ## UML Class Diagram
 To make your class revertible, simply extend **BaseRevertible** and annotate the properties you want to be revertible with the **[Revertible]** attribute:
 
-![UML Class Diagram](Documentation/Klassendiagramm.png)
+![UML Class Diagram](Klassendiagramm.png)
 
 ## Example Code
 Here's a simple example of making a class revertible:
