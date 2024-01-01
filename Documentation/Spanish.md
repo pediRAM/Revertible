@@ -28,12 +28,12 @@ Como se muestra en el diagrama a continuación, en el estado 5, cuando se invoca
 
 **Nota:** Las propiedades sin la anotación **[Revertible]** siempre son ignoradas.
 
-![Diagrama de Estado](Documentation/Timeline.drawio.png)
+![Diagrama de Estado](Timeline.drawio.png)
 
 ## Diagrama de Clase UML
 Para hacer tu clase revertible, simplemente extiende **BaseRevertible** y anota las propiedades que deseas sean revertibles con el atributo **[Revertible]**:
 
-![Diagrama de Clase UML](Documentation/Klassendiagramm.png)
+![Diagrama de Clase UML](Klassendiagramm.png)
 
 ## Código de Ejemplo
 Aquí hay un ejemplo simple de cómo hacer una clase revertible:
