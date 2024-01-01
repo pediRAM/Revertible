@@ -2,7 +2,7 @@ This is the english documentation. Following translations are available:
 - [普通话 (Mandarin) :cn:](Documentation/Mandarin.md)
 - [Español :es:](Documentation/Spanish.md)
 - [Pусский :ru:](Documentation/Russian.md)
-- [Deutsch :de:](Documentation/German.md)
+- [Deutsch :de: :at: :ch:](Documentation/German.md)
 - [हिंदी :india:](Documentation/Spanish.md)
 - [فارسی :iran: :afghanistan: :tajikistan:](Documentation/Spanish.md)
 
