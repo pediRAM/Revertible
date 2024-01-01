@@ -4,7 +4,7 @@ This is the english documentation. Following translations are available:
 - [Pусский :ru:](Documentation/Russian.md)
 - [Deutsch :de: :austria: :switzerland:](Documentation/German.md)
 - [हिंदी :india:](Documentation/Spanish.md)
-- [فارسی :iran: :afghanistan: :tajikistan:](Documentation/Spanish.md)
+- [فارسی :iran: :afghanistan: :tajikistan:](Documentation/Farsi.md)
 
 # Revertible
 Facilitates defining classes with **Revertible Properties**. 
