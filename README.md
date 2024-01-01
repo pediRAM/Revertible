@@ -2,10 +2,11 @@ This is the english documentation. Following translations are available:
 - [普通话 (Mandarin) :cn:](Documentation/Mandarin.md)
 - [Español :es:](Documentation/Spanish.md)
 - [Pусский :ru:](Documentation/Russian.md)
-- [Deutsch :de: :AT: :CH:](Documentation/German.md)
+- [Deutsch :de:](Documentation/German.md)
 - [हिंदी :india:](Documentation/Spanish.md)
 - [فارسی :iran: :afghanistan: :tajikistan:](Documentation/Spanish.md)
-
+:at:
+:ch:
 # Revertible
 Facilitates defining classes with **Revertible Properties**. 
 
