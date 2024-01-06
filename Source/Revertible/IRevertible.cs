@@ -5,7 +5,7 @@
 
 
     /// <summary>
-    /// Defines methods to save and revert revertible properties and their values, which are annotated with <see cref="RevertibleAttribute"/>.
+    /// Defines methods to save and revert properties and their values which are annotated with <see cref="RevertibleAttribute"/>.
     /// </summary>
     public interface IRevertible
     {
@@ -30,13 +30,14 @@
 
 
         /// <summary>
-        /// Saves revertible properties which are assigned as <see cref="RevertibleAttribute"/> and their value.
+        /// Saves the <see cref="PropertyInfo"/> and values of revertible properties (properties 
+        /// which are annotated with <see cref="RevertibleAttribute"/>).
         /// </summary>
         void SaveRevertibleProperties();
 
 
         /// <summary>
-        /// Reverts value changes for revertible properties containing <see cref="RevertibleAttribute"/> attribute.
+        /// Reverts value changes of revertible properties (properties annotated with <see cref="RevertibleAttribute"/>).
         /// </summary>
         void RevertRevertibleProperties();
     }

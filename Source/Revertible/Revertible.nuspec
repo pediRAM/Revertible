@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Revertible</id>
+    <version>1.0</version>
+    <authors>Pedram GANJEH-HADIDI (pediRAM)</authors>
+    <owners>Pedram GANJEH-HADIDI (pediRAM)</owners>
+    <summary>Facilitates defining classes with revertible properties, to revert their values.</summary>
+    <description>
+      Facilitates defining classes with revertible properties, to revert their values.
+      Ideal for scenarios where you need to simply revert all changed values, like user-modified settings, without saving the changes to the model or file.
+    </description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/pediRAM/Revertible</projectUrl>
+    <licenseUrl>https://github.com/pediRAM/Revertible/blob/main/LICENSE</licenseUrl>
+    <iconUrl>https://github.com/pediRAM/Revertible/blob/main/Source/Revertible/icon.png</iconUrl>
+    <tags>acme api this that another tags separated by spaces</tags>
+    <dependencies>
+      <dependency id=".NETStandard" version="2.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!--<file src="Revertible.dll" target="lib\Revertible.dll" />
+    <file src="Revertible.xml" target="lib\Revertible.xml" />
+    <file src="Revertible.pdb" target="lib\Revertible.pdb" />-->
+    <file src="icon.png" target="" />
+    <file src="License.txt" target="" />
+    <file src="README.md" target="" />
+  </files>
+</package>

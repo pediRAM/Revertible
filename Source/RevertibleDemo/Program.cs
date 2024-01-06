@@ -53,7 +53,7 @@ namespace RevertibleDemo
             Console.WriteLine("All properties:");
             foreach(var pi in pRevertibleClass.GetRevertibleProperties())
             {
-                Console.WriteLine($"{pi.Name.PadRight(15)} = {pi.GetValue(pRevertibleClass)}");
+                Console.WriteLine($"{pi.Name,-15} = {pi.GetValue(pRevertibleClass)}");
             }
 
             Console.WriteLine(RULER);

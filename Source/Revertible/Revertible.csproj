@@ -2,7 +2,42 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>11</LangVersion>
+    <LangVersion>8</LangVersion>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.0</Version>
+    <VersionSuffix></VersionSuffix>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageIcon>icon.png</PackageIcon>
+    <Title>Facilitates defining classes with revertible properties</Title>
+    <Authors>Pedram GANJEH-HADIDI (aka pediRAM)</Authors>
+    <Owners>Pedram GANJEH-HADIDI (aka pediRAM)</Owners>
+    <ProjectUrl>https://github.com/pediRAM/Revertible</ProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Facilitates defining classes with revertible properties.
+Ideal for scenarios where you need to simply revert all changed values, like user-modified settings, without saving the changes to the model or file.
+    </Description>
+    <PackageReleaseNotes>This is the very first release.</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/pediRAM/Revertible</PackageProjectUrl>
+    <Copyright>Copyright (C)2024 by Pedram GANJEH-HADIDI</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/pediRAM/Revertible.git</RepositoryUrl>
+    <PackageTags>revert property value revertible properties</PackageTags>
   </PropertyGroup>
+  <ItemGroup>
+    <None Update="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 </Project>

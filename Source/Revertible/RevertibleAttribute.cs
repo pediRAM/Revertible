@@ -3,7 +3,7 @@
     using System;
 
     /// <summary>
-    /// Classes and properties marked/associated to this attribute, can be used by <see cref=""/> to save current values and revert them later if needed.
+    /// Annotated classes and properties are marked as revertibel. See <see cref="BaseRevertible"/> and <seealso cref="IRevertible"/>.
     /// </summary>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Property, AllowMultiple = false)]
     public class RevertibleAttribute : Attribute

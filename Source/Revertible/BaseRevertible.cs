@@ -7,7 +7,7 @@
 
     /// <summary>
     /// Derived classes are able to save current state of revertible properties and revert their values later if needed.
-    /// <pre>You have to mark/associate revertible properties by <see cref="RevertibleAttribute"/> attribute!</pre>
+    /// <pre>NOTICE: You need to annotate the properties of the derived class with <see cref="RevertibleAttribute"/> attribute to make them revertible!</pre>
     /// </summary>
     public class BaseRevertible : IRevertible
     {
@@ -15,7 +15,7 @@
         private Dictionary<PropertyInfo, object> m_RevertibleProperties;
 
         /// <summary>
-        /// Returns the <see cref="PropertyInfo"/> of all revertible properties in derived class, which have the <see cref="RevertibleAttribute"/> attribute.
+        /// Returns the <see cref="PropertyInfo"/> for all properties which are annotated with <see cref="RevertibleAttribute"/> in derived class.
         /// </summary>
         /// <returns>Enumerable of <see cref="PropertyInfo"/>.</returns>
         public IEnumerable<PropertyInfo> GetRevertibleProperties() =>
@@ -23,7 +23,7 @@
 
 
         /// <summary>
-        /// Returns the <see cref="PropertyInfo"/>s of revertible properties, which their values have been changed/modified.
+        /// Returns the <see cref="PropertyInfo"/>s for properties which are annotated with <see cref="RevertibleAttribute"/> and changed value.
         /// </summary>
         /// <returns>Enumerable of <see cref="PropertyInfo"/>.</returns>
         public IEnumerable<PropertyInfo> GetModifiedRevertibleProperties()
@@ -45,13 +45,13 @@
 
 
         /// <summary>
-        /// Contains TRUE if at least one property has changed/modified value, else FALSE.
+        /// Contains TRUE if the value of at least one property (which is annotated with <see cref="RevertibleAttribute"/>) has changed/modified, else FALSE.
         /// </summary>
         public bool HasModifiedRevertibleProperties => GetModifiedRevertibleProperties().Any();
 
 
         /// <summary>
-        /// Reverts value changes for revertible properties containing <see cref="RevertibleAttribute"/> attribute.
+        /// Reverts value changes for revertible properties annotated with <see cref="RevertibleAttribute"/>.
         /// </summary>
         public void RevertRevertibleProperties()
         {
@@ -66,7 +66,7 @@
 
 
         /// <summary>
-        /// Saves revertible properties which are assigned as <see cref="RevertibleAttribute"/> and their value.
+        /// Saves revertible properties which are annotated with <see cref="RevertibleAttribute"/> and their values.
         /// </summary>
         public void SaveRevertibleProperties()
             => m_RevertibleProperties = ((IRevertible)this).GetRevertibleProperties().ToDictionary(p => p, p => p.GetValue(this));
