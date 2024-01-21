@@ -3,7 +3,8 @@ This is the english documentation. Following translations are available:
 - [Español :es:](Documentation/Spanish.md)
 - [Pусский :ru:](Documentation/Russian.md)
 - [Deutsch :de: :austria: :switzerland:](Documentation/German.md)
-- [हिंदी :india:](Documentation/Spanish.md)
+- [हिंदी :india:](Documentation/Hindi.md)
+- [Türkçe :tr:](Documentation/Turkish.md)
 - [فارسی :iran: :afghanistan: :tajikistan:](Documentation/Farsi.md)
 
 # Revertible
