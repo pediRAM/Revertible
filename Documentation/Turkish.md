@@ -1,3 +1,5 @@
+**ÖNEMLİ HATIRLATMA:** Yapay Zeka tarafından üretilen içerik - Bu belge, İngilizceden Türkçeye ChatGPT-4 kullanılarak çevrildi.
+
 # Revertible
 **Geri Alınabilir Özellikler** tanımlamayı kolaylaştırır.
 
