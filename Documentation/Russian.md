@@ -1,3 +1,9 @@
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/icon.png)
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/pediRAM/Revertible.svg?sort=semver)](https://github.com/pediRAM/Revertible/releases)
+[![NuGet](https://img.shields.io/nuget/v/Revertible)](https://www.nuget.org/packages/Revertible)
+
 ***ВАЖНОЕ ПРИМЕЧАНИЕ: Контент, сгенерированный искусственным интеллектом – Эта документация была переведена с помощью ChatGPT-4 с английского языка.***
 
 # Возвратимый (Revertible)
@@ -28,12 +34,12 @@
 
 **Примечание:** Свойства без аннотации **[Revertible]** всегда игнорируются.
 
-![Диаграмма состояний](Timeline.drawio.png)
+![Диаграмма состояний](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Timeline.drawio.png)
 
 ## Диаграмма классов UML
 Чтобы сделать ваш класс возвратимым, просто расширьте **BaseRevertible** и аннотируйте свойства, которые вы хотите сделать возвратимыми, используя атрибут **[Revertible]**:
 
-![Диаграмма классов UML](Klassendiagramm.png)
+![Диаграмма классов UML](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Klassendiagramm.png)
 
 ## Пример кода
 Вот простой пример создания возвратимого класса:

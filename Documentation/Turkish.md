@@ -1,4 +1,10 @@
-**ÖNEMLİ HATIRLATMA:** Yapay Zeka tarafından üretilen içerik - Bu belge, İngilizceden Türkçeye ChatGPT-4 kullanılarak çevrildi.
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/icon.png)
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/pediRAM/Revertible.svg?sort=semver)](https://github.com/pediRAM/Revertible/releases)
+[![NuGet](https://img.shields.io/nuget/v/Revertible)](https://www.nuget.org/packages/Revertible)
+
+***ÖNEMLİ HATIRLATMA: Yapay Zeka tarafından üretilen içerik - Bu belge, İngilizceden Türkçeye ChatGPT-4 kullanılarak çevrildi.***
 
 # Revertible
 **Geri Alınabilir Özellikler** tanımlamayı kolaylaştırır.
@@ -28,12 +34,12 @@ Aşağıdaki diyagramda gösterildiği gibi, durum 5'te geri alma yöntemi çağ
 
 **Not:** **[Revertible]** işareti olmayan özellikler her zaman göz ardı edilir.
 
-![Durum Diyagramı](Timeline.drawio.png)
+![Durum Diyagramı](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Timeline.drawio.png)
 
 ## UML Sınıf Diyagramı
 Sınıfınızı geri alınabilir hale getirmek için sadece **BaseRevertible**'ı genişletin ve geri alınabilir olmasını istediğiniz özellikleri **[Revertible]** attribütü ile işaretleyin:
 
-![UML Sınıf Diyagramı](Klassendiagramm.png)
+![UML Sınıf Diyagramı](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Klassendiagramm.png)
 
 ## Örnek Kod
 İşte bir sınıfın geri alınabilir hale getirilmesiyle ilgili basit bir örnek:

@@ -1,3 +1,9 @@
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/icon.png)
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/pediRAM/Revertible.svg?sort=semver)](https://github.com/pediRAM/Revertible/releases)
+[![NuGet](https://img.shields.io/nuget/v/Revertible)](https://www.nuget.org/packages/Revertible)
+
 # वापस करने योग्य (Revertible)
 प्रत्यावर्तनीय गुणों के साथ वर्गों को परिभाषित करने की सुविधा प्रदान करता है।
 
@@ -25,12 +31,12 @@
 
 **ध्यान दें:** [Revertible] एनोटेशन के बिना गुणों को हमेशा नजरअंदाज कर दिया जाता है।
 
-![State Diagram](Timeline.drawio.png)
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Timeline.drawio.png)
 
 ## यूएमएल क्लास आरेख
 अपनी कक्षा को वापस करने योग्य बनाने के लिए, बस BaseRevertible का विस्तार करें और उन गुणों को एनोटेट करें जिन्हें आप [Revertible] विशेषता के साथ वापस करना चाहते हैं:
 
-![UML Class Diagram](Klassendiagramm.png)
+![UML Class Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Klassendiagramm.png)
 
 ## उदाहरण कोड
 यहां कक्षा को वापस करने योग्य बनाने का एक सरल उदाहरण दिया गया है:

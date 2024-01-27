@@ -1,3 +1,9 @@
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/icon.png)
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/pediRAM/Revertible.svg?sort=semver)](https://github.com/pediRAM/Revertible/releases)
+[![NuGet](https://img.shields.io/nuget/v/Revertible)](https://www.nuget.org/packages/Revertible)
+
 ***توجه : محتوای تولیدشده توسط هوش مصنوعی – این مستندات توسط ChatGPT-4 از نسخه انگلیسی ترجمه شده است.***
 
 # قابل بازگشت (Revertible)
@@ -28,14 +34,14 @@
 
 **توجه:** ویژگی‌هایی که علامت‌گذاری **[Revertible]** ندارند همیشه نادیده گرفته می‌شوند.
 
-![نمودار حالت](Timeline.drawio.png)
+![نمودار حالت](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Timeline.drawio.png)
 
 ## نمودار کلاس UML
 برای قابل بازگشت کردن کلاس خود، تنها کافی است **BaseRevertible** را گسترش دهید و ویژگی‌هایی که می‌خواهید قابل بازگشت باشند را
 
  با ویژگی **[Revertible]** علامت‌گذاری کنید:
 
-![نمودار کلاس UML](Klassendiagramm.png)
+![نمودار کلاس UML](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Klassendiagramm.png)
 
 ## کد نمونه
 در اینجا یک مثال ساده برای قابل بازگشت کردن یک کلاس آورده شده است:

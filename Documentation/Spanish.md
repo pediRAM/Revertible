@@ -1,3 +1,9 @@
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/icon.png)
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/pediRAM/Revertible.svg?sort=semver)](https://github.com/pediRAM/Revertible/releases)
+[![NuGet](https://img.shields.io/nuget/v/Revertible)](https://www.nuget.org/packages/Revertible)
+
 ***AVISO IMPORTANTE: Contenido Generado por IA - Esta documentación ha sido traducida por ChatGPT-4 de la versión en inglés.***
 
 # Revertible
@@ -28,12 +34,12 @@ Como se muestra en el diagrama a continuación, en el estado 5, cuando se invoca
 
 **Nota:** Las propiedades sin la anotación **[Revertible]** siempre son ignoradas.
 
-![Diagrama de Estado](Timeline.drawio.png)
+![Diagrama de Estado](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Timeline.drawio.png)
 
 ## Diagrama de Clase UML
 Para hacer tu clase revertible, simplemente extiende **BaseRevertible** y anota las propiedades que deseas sean revertibles con el atributo **[Revertible]**:
 
-![Diagrama de Clase UML](Klassendiagramm.png)
+![Diagrama de Clase UML](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Klassendiagramm.png)
 
 ## Código de Ejemplo
 Aquí hay un ejemplo simple de cómo hacer una clase revertible:

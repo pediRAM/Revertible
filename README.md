@@ -1,11 +1,18 @@
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/icon.png)
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/pediRAM/Revertible.svg?sort=semver)](https://github.com/pediRAM/Revertible/releases)
+[![NuGet](https://img.shields.io/nuget/v/Revertible)](https://www.nuget.org/packages/Revertible)
+
 This is the english documentation. Following translations are available:
-- [普通话 (Mandarin) :cn:](Documentation/Mandarin.md)
-- [Español :es:](Documentation/Spanish.md)
-- [Pусский :ru:](Documentation/Russian.md)
-- [Deutsch :de: :austria: :switzerland:](Documentation/German.md)
-- [हिंदी :india:](Documentation/Hindi.md)
-- [Türkçe :tr:](Documentation/Turkish.md)
-- [فارسی :iran: :afghanistan: :tajikistan:](Documentation/Farsi.md)
+- [普通话 (Mandarin) :cn:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Mandarin.md)
+- [Español :es:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Spanish.md)
+- [Pусский :ru:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Russian.md)
+- [Deutsch :de: :austria: :switzerland:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/German.md)
+- [हिंदी :india:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Hindi.md)
+- [Türkçe :tr:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Turkish.md)
+- [فارسی :iran: :afghanistan: :tajikistan:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Farsi.md)
+
 
 # Revertible
 Facilitates defining classes with **Revertible Properties**. 
@@ -35,12 +42,12 @@ As shown in the diagram below, at state 5, when the revert method is invoked, th
 
 **Note:** Properties without the **[Revertible]** annotation are always ignored.
 
-![State Diagram](Documentation/Timeline.drawio.png)
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Timeline.drawio.png)
 
 ## UML Class Diagram
 To make your class revertible, simply extend **BaseRevertible** and annotate the properties you want to be revertible with the **[Revertible]** attribute:
 
-![UML Class Diagram](Documentation/Klassendiagramm.png)
+![UML Class Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Klassendiagramm.png)
 
 ## Example Code
 Here's a simple example of making a class revertible:

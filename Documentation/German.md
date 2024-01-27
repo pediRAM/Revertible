@@ -1,3 +1,9 @@
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/icon.png)
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/pediRAM/Revertible.svg?sort=semver)](https://github.com/pediRAM/Revertible/releases)
+[![NuGet](https://img.shields.io/nuget/v/Revertible)](https://www.nuget.org/packages/Revertible)
+
 ***WICHTIGER HINWEIS: KI-generierter Inhalt – Diese Dokumentation wurde mithilfe von ChatGPT-4 aus dem Englischen übersetzt.***
 
 # Revertible
@@ -28,12 +34,12 @@ Im Diagramm unten: Bei Zustand 5, wenn die Revert-Methode aufgerufen wird, werde
 
 **Hinweis:** Eigenschaften ohne **[Revertible]**-Attribut werden ignoriert.
 
-![Zustandsdiagramm](Timeline.drawio.png)
+![Zustandsdiagramm](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Timeline.drawio.png)
 
 ## UML-Klassendiagramm
 Um eine Klasse rücksetzbar zu machen, erben Sie von **BaseRevertible** und markieren Sie gewünschte Eigenschaften mit dem **[Revertible]**-Attribut:
 
-![UML-Klassendiagramm](Klassendiagramm.png)
+![UML-Klassendiagramm](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Klassendiagramm.png)
 
 ## Beispielcode
 So erstellen Sie eine rücksetzbare Klasse:

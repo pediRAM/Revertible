@@ -1,3 +1,9 @@
+![State Diagram](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/icon.png)
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/pediRAM/Revertible.svg?sort=semver)](https://github.com/pediRAM/Revertible/releases)
+[![NuGet](https://img.shields.io/nuget/v/Revertible)](https://www.nuget.org/packages/Revertible)
+
 ***重要提示：AI生成内容 - 本文档由ChatGPT-4从英文版本翻译而来。***
 
 # Revertible 可还原
@@ -28,12 +34,12 @@
 
 **注意：**没有**[Revertible]**注释的属性将始终被忽略。
 
-![状态图](Timeline.drawio.png)
+![状态图](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Timeline.drawio.png)
 
 ## UML类图
 要使您的类可还原，只需扩展**BaseRevertible**并使用**[Revertible]**属性注释您希望可还原的属性：
 
-![UML类图](Klassendiagramm.png)
+![UML类图](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Klassendiagramm.png)
 
 ## 示例代码
 以下是使类可还原的简单示例：
