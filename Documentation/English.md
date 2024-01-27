@@ -5,13 +5,13 @@
 [![NuGet](https://img.shields.io/nuget/v/Revertible)](https://www.nuget.org/packages/Revertible)
 
 This is the english documentation. Following translations are available:
-- [普通话 (Mandarin) :cn:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Mandarin.md)
-- [Español :es:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Spanish.md)
-- [Pусский :ru:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Russian.md)
-- [Deutsch :de: :austria: :switzerland:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/German.md)
-- [हिंदी :india:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Hindi.md)
-- [Türkçe :tr:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Turkish.md)
-- [فارسی :iran: :afghanistan: :tajikistan:](https://raw.githubusercontent.com/pediRAM/Revertible/main/Documentation/Farsi.md)
+- [普通话 (Mandarin) :cn:](https://github.com/pediRAM/Revertible/blob/main/Documentation/Mandarin.md)
+- [Español :es:](https://github.com/pediRAM/Revertible/blob/main/Documentation/Spanish.md)
+- [Pусский :ru:](https://github.com/pediRAM/Revertible/blob/main/Documentation/Russian.md)
+- [Deutsch :de: :austria: :switzerland:](https://github.com/pediRAM/Revertible/blob/main/Documentation/German.md)
+- [हिंदी :india:](https://github.com/pediRAM/Revertible/blob/main/Documentation/Hindi.md)
+- [Türkçe :tr:](https://github.com/pediRAM/Revertible/blob/main/Documentation/Turkish.md)
+- [فارسی :iran: :afghanistan: :tajikistan:](https://github.com/pediRAM/Revertible/blob/main/Documentation/Farsi.md)
 
 # Revertible
 Facilitates defining classes with **Revertible Properties**.
